@@ -1,0 +1,8 @@
+export {default as ExchangeRateBox} from './ExchangeRateBox'
+export {default as NavBar} from './NavBar'
+export {default as PartnersBox} from './PartnersBox'
+export {default as DefaulRoutes} from './DefaulRoutes'
+export {default as CalculateRateBox} from './CalculateRateBox'
+export {default as BoxAdvert} from './BoxAdvert'
+export {default as SinglePairConversionBox} from './SinglePairConversionBox'
+export {default as MutiplePairConversion} from './MutiplePairConversion'
