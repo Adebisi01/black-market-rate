@@ -1,28 +1,28 @@
 import { Popover, Transition } from "@headlessui/react";
 import { Fragment, ReactElement } from "react";
-import {FaArrowDown} from 'react-icons/fa6'
+
 import { TiThMenu } from "react-icons/ti";
 
-const solutions = [
-  {
-    name: "Insights",
-    description: "Measure actions your users take",
-    href: "##",
-    icon: IconOne,
-  },
-  {
-    name: "Automations",
-    description: "Create your own targeted content",
-    href: "##",
-    icon: IconTwo,
-  },
-  {
-    name: "Reports",
-    description: "Keep track of your growth",
-    href: "##",
-    icon: IconThree,
-  },
-];
+// const solutions = [
+//   {
+//     name: "Insights",
+//     description: "Measure actions your users take",
+//     href: "##",
+//     icon: IconOne,
+//   },
+//   {
+//     name: "Automations",
+//     description: "Create your own targeted content",
+//     href: "##",
+//     icon: IconTwo,
+//   },
+//   {
+//     name: "Reports",
+//     description: "Keep track of your growth",
+//     href: "##",
+//     icon: IconThree,
+//   },
+// ];
 
 export default function HeadlessPopOver({children}:{children:ReactElement}) {
   return (
