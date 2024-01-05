@@ -4,11 +4,8 @@ import {
   MutiplePairConversion,
   SinglePairConversionBox,
 } from "../components";
-import { NG, US } from "country-flag-icons/react/1x1";
-import ExchnageRateBox from "../components/ExchangeRateBox";
-import NavBar from "../components/NavBar";
 import PartnersBox from "../components/PartnersBox";
-import { BiTransferAlt } from "react-icons/bi";
+
 
 const BrowseAllCurrencies = () => {
   return (

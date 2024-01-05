@@ -1,5 +1,3 @@
-import React from "react";
-
 const AboutUs = () => {
   return (
     <>
@@ -12,7 +10,7 @@ const AboutUs = () => {
         </h1>
         <section className="flex flex-col gap-5">
           <h1> Welcome to Blackmarketrate.com. </h1>
-       
+
           <p>
             {" "}
             At Blackmarketrate.com, we understand the importance of staying
@@ -21,11 +19,11 @@ const AboutUs = () => {
             on black market exchange rates, helping you make informed decisions
             about currency exchange.
           </p>
-       
+
           <h2> ### Our Mission</h2>
-       
+
           <h2> **Empowering Your Financial Choices**</h2>
-       
+
           <p>
             {" "}
             In a world where currency values can fluctuate rapidly, having
@@ -34,9 +32,9 @@ const AboutUs = () => {
             individuals and businesses with the knowledge they need to navigate
             the dynamic landscape of black market rates confidently.
           </p>
-       
+
           <h2> ### What Sets Us Apart </h2>
-       
+
           <p>
             {" "}
             **Accuracy and Transparency** We pride ourselves on delivering
@@ -46,9 +44,9 @@ const AboutUs = () => {
             strive to build trust with our users by offering clear and reliable
             data.
           </p>
-       
+
           <h2> **User-Friendly Interface**</h2>
-       
+
           <p>
             {" "}
             Navigating through complex financial data shouldn't be a challenge.
@@ -57,11 +55,11 @@ const AboutUs = () => {
             find our platform easy to use, ensuring a seamless experience as you
             explore the world of black market exchange rates.{" "}
           </p>
-       
+
           <h2> ### How We Can Help You </h2>
-       
+
           <h2> **Stay Informed**</h2>
-       
+
           <p>
             {" "}
             Our platform provides a comprehensive overview of black market rates
@@ -73,9 +71,9 @@ const AboutUs = () => {
             to assess the best times for your currency exchanges, helping you
             optimize your financial decisions.
           </p>
-       
+
           <h2> ### Contact Us</h2>
-       
+
           <p>
             {" "}
             We value your feedback and are always here to assist you. If you
@@ -84,9 +82,9 @@ const AboutUs = () => {
             you for choosing Blackmarketrate.com. We look forward to being your
             trusted source for black market exchange rates.
           </p>
-       
+
           <p> [Get Started](#) </p>
-       
+
           <p>
             {" "}
             --- Remember to replace the placeholders like "[contact us](#)" and

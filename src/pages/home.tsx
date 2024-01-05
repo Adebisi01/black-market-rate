@@ -1,13 +1,10 @@
 import ExchnageRateBox from "../components/ExchangeRateBox";
-import NavBar from "../components/NavBar";
 import PartnersBox from "../components/PartnersBox";
 
 const home = () => {
   return (
     <>
       <div className=" bg-gray-950 min-w-full min-h-screen">
-      
-
         <section className=" text-white py-32 px-6 lg:px-24">
           <h6 className=" text-center text-base">Black Market Rate</h6>
           <h1 className="text-center text-3xl lg:text-5xl font-bold">
@@ -31,8 +28,9 @@ const home = () => {
             </p>
           </section>
           <section className=" py-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 justify-items-center px-2 w-full gap-y-4 ">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(() =>   <PartnersBox />)}
-           
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(() => (
+              <PartnersBox />
+            ))}
           </section>
         </section>
       </div>
